@@ -15,8 +15,7 @@
             </td>
             <td>&nbsp;</td>
             <td>
-                <asp:Button ID="Contacto" runat="server" Text="CONTACTO" OnClick="Contacto_Click" />
-            </td>
+                &nbsp;</td>
         </tr>
         <tr>
             <td>

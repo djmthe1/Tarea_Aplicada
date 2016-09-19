@@ -13,7 +13,8 @@
     <style type="text/css">
         .auto-style1 {
             text-align: center;
-            color: #FF3300;
+            color: #C0FF3E;
+            font-size: x-large;
         }
     </style>
 </head>
@@ -21,14 +22,14 @@
     <form id="form1" runat="server">
     <div>
         <div class="auto-style1">
-            <strong>DJM Computers &amp; Technology</strong></div>
+            DJM </div>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
     </div>
         <div id ="pie" >
-        <asp:Button ID="ContactoButton" runat="server" Text="CONTACTO" Width="88px" OnClick="ContactoButton_Click" />
-    &nbsp;Derechos nunca reservados</form>
+        <asp:Button ID="ContactoButton" runat="server" Text="CONTACTO" Width="107px" OnClick="ContactoButton_Click" />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Derechos nunca reservados</form>
     </div>
 </body>
 </html>

@@ -13,5 +13,10 @@ namespace Tarea
         {
 
         }
+
+        protected void AccionButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("DefaultWebForm.aspx");
+        }
     }
 }

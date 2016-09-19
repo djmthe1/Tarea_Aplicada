@@ -6,13 +6,24 @@
             height: 254px;
         }
     </style>
+    <script type="text/javascript">
+        $(document).ready(function(){ 
+        $('#alternar-respuesta').on('click',function(){
+        $('#respuesta').toggle();
+            });
+        });
+    </script>
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <p>
-        <asp:Button ID="AccionButton" runat="server" Height="33px" Text="Presione Aqui" Width="146px" />
+        <asp:Button ID="AccionButton" runat="server" Height="33px" Text="VOLVER" Width="88px" OnClick="AccionButton_Click" />
     </p>
-
-        &nbsp;<img src="Pictures/Kawasaki.jpg" alt="logo" id="logo" class="auto-style2"/>
+    <div id="contenido">
+        <p>&nbsp;<p>Que motor es ?... (<a href="#" id="alternar-respuesta">Mostrar</a>)
+ 
+        <p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<div id="respuesta" style="display:none">
+        &nbsp;<img src="Pictures/Kawasaki.jpg" alt="logo" id="logo" class="auto-style2"/></div>
+     </div>
 
 </asp:Content>
