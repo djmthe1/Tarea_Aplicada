@@ -29,7 +29,7 @@
     </div>
         <div id ="pie" >
         <asp:Button ID="ContactoButton" runat="server" Text="CONTACTO" Width="107px" OnClick="ContactoButton_Click" />
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Derechos nunca reservados</form>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<marquee> Derechos nunca reservados</marquee></form>
     </div>
 </body>
 </html>

@@ -58,6 +58,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ConsultaMensajesWebForm.aspx" />
     <Content Include="ContactoWebForm.aspx" />
     <Content Include="CSS\estilos.css" />
     <Content Include="DataBase\Database.mdf" />
@@ -73,6 +74,13 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConsultaMensajesWebForm.aspx.cs">
+      <DependentUpon>ConsultaMensajesWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultaMensajesWebForm.aspx.designer.cs">
+      <DependentUpon>ConsultaMensajesWebForm.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ContactoWebForm.aspx.cs">
       <DependentUpon>ContactoWebForm.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
